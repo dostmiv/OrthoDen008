@@ -10,13 +10,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrthoDen">
         <activity
-            android:name=".ReturnActivity"
+            android:name=".Intent.SMSActivity"
             android:exported="false" />
         <activity
-            android:name=".MailActivity"
+            android:name=".Intent.ShareActivity"
             android:exported="false" />
         <activity
-            android:name=".SMSActivity"
+            android:name=".Intent.ReturnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Intent.MailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Intent.LinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Communication.Callapp.CallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.ViewUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Communication.ReturnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Communication.MailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Communication.SMSActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
