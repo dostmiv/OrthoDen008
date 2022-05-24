@@ -96,6 +96,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent=new Intent(MainActivity.this, LoginActivity.class );
                 startActivity(intent);
                 break;
+            case R.id.btn_notify:
+                intent=new Intent(MainActivity.this, LoginActivity.class );
+                startActivity(intent);
+                break;
+
         }
     }
 

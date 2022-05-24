@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrthoDen">
         <activity
+            android:name=".NotifiyActivity"
+            android:exported="false" />
+        <activity
             android:name=".Intent.SMSActivity"
             android:exported="false" />
         <activity
